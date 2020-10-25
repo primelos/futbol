@@ -1,0 +1,9 @@
+create-react-app .
+npm install
+npm install react-router-dom
+npm install react-reveal --save
+npm i react-move
+npm i react-firebase-file-uploader
+npm install --save firebase
+npm install d3-ease
+npm install @material-ui/core
