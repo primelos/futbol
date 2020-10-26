@@ -3,7 +3,8 @@ import 'firebase/app'
 import 'firebase/database'
 require('dotenv').config()
 
-
+console.log(process.env.REACT_APP_AUTH_DOMAIN)
+console.log(process.env.REACT_APP_DATABASE_URL)
 
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_API_KEY,
