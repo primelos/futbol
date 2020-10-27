@@ -25,10 +25,13 @@ const firebaseCFV = firebase.database();
 
 const firebaseMatches = firebaseCFV.ref('matches')
 
+const firebasePromotions = firebaseCFV.ref('promotions')
+
 
 export {
     firebase,
-    firebaseMatches
+    firebaseMatches,
+    firebasePromotions
 }
 
 // for testing
