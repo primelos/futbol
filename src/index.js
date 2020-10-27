@@ -21,3 +21,7 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+
+
+// email: carlos@aol.com passwprd: pass123  <- firebase

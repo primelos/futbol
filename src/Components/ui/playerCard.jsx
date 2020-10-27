@@ -12,6 +12,7 @@ const PlayerCard = ({ number, name, lastname, bck }) => {
                     {number}
                 </div>
                 <div className="player_card_name">
+                    <span>{name}</span>
                     <span>{lastname}</span>
                 </div>
             </div>
