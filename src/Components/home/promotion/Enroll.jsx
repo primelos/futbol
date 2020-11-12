@@ -84,12 +84,12 @@ class Enroll extends Component {
             .then((snapshot) => {
                 if(snapshot.val() === null){
                     firebasePromotions.push(dataToSubmit)
-                    this.resetFormSucssess(true)
+                    this.resetFormSuccess(true)
                 } else {
-                    this.resetFormSucssess(false)
+                    this.resetFormSuccess(false)
                 }
             })
-            // this.resetFormSucssess()
+            // this.resetFormSuccess()
         } else {
             this.setState({
                 formError: true
